@@ -1,0 +1,81 @@
+# Shodan dorks
+
+## Search for vul mongo server
+
+Payloads_1:"MongoDB Server Information" port:27017 -authentication
+
+Payloads_2:"Set-Cookie: mongo-express=" "200 OK"
+
+## Search for MySQL databases 
+
+mysql port:"3306"
+
+## Search for elastic search instance
+
+port:"9200" all:"elastic indices"
+
+## Search for postgreSQL database
+
+port:5432 PostgreSQL
+
+## Search for proftpd
+
+proftpd port:21
+
+## FTP server that allow anonymous login
+
+"220" "230 Login successful." port:21
+
+## Search for TELNET with 
+
+port:"23"
+
+## Search exim-powered mailserver
+
+port:"25" product:"exim"
+
+## Search Memcached
+
+port:"11211" product:"Memcached"
+
+## Jenkin service
+
+"X-Jenkins" "Set-Cookie: JSESSIONID" http.title:"Dashboard"
+
+## Find DNS server with recursion enabled
+
+"port: 53" Recursion: Enabled
+
+## Finding websever
+
+product:"Apache httpd" port:"80"
+
+product:"Microsoft IIS httpd"
+
+product:"nginx"
+
+"port: 8080" product:"nginx"
+
+product:"Apache Tomcat"
+
+
+## Finding self-signed SSL certificate
+
+ssl.cert.issuer.cn:example.com ssl.cert.subject.cn:example.com
+
+## Finding expired SSL certificate
+
+ssl.cert.expired:true
+
+## SAMBA with auth disabled => infomation disclosure
+
+"Authentication: disabled" port:445
+
+## PLEX media manager service
+
+"X-Plex-Protocol" "200 OK" port:32400 
+
+## Grafana service
+
+Http.title:grafana
+

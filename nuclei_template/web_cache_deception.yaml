@@ -1,0 +1,40 @@
+id: web-cache-deception
+
+info:
+  name: CacheDecetion - Detect
+  author: netime
+  severity: medium
+  description: Possible vulnerable web cache
+  reference:
+    - https://twitter.com/pratiky9967/status/1230001391701086208
+    - https://www.tenable.com/plugins/was/98595
+  classification:
+    cvss-metrics: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:N
+    cvss-score: 0.0
+    cwe-id: CWE-200
+  tags: exposure,vul,config,git
+  
+http:
+  - method: GET
+    path:
+      - "{{BaseURL}}/.gitignore"
+      - "{{BaseURL}}/.js"
+      - "{{BaseURL}}/;.js"
+      - "{{BaseURL}}/%0d%0a.css"
+      - "{{BaseURL}}/.css"
+      - "{{BaseURL}}/;.css"
+      - "{{BaseURL}}/.avif"
+      - "{{BaseURL}}/.jpeg"
+      - "{{BaseURL}}/.yaml"
+      - "{{BaseURL}}/.ps"
+      - "{{BaseURL}}/.swf"
+      - "{{BaseURL}}/.exo"
+
+    
+    matchers-condition: and
+    matchers:
+      - type: dsl
+        dsl:
+          - 'len(body) > 50'
+          - 'status_code == 200'
+        condition: and

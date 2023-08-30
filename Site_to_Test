@@ -1,0 +1,47 @@
+((gotinder search with shodan,urlscan,hunter))
+((hiltonbusinessonline.com search with hunter and shodan,urlscan))
+(look in shodan and hunter for tiktokv)
+ (gowitness and look in shodan and hunter for xiaomi.com)
+recon(mi.com new subs)
+recon (iot.mi.com)
+(recon home.mi.com)
+(recon cloud.mi.com)
+(recon pandora.xiaomi.com)
+http://big-appliance.tv.mi.com/
+https://assistant.tv.mi.com/
+https://api-translator.sys.tv.mi.com/
+3rdservice.tv.mi.com 
+https://ecom-data.marionnaud.at/
+http://fds.autotest.iot.mi.com/ (test cache)
+https://onlinedoctor.superdrug.com
+[basic-auth-detect] [http] [info] https://pharmacy-uat.superdrug.com
+http://prod-cc.superdrug.com/#PATCH (ssrf by proxy)
+[tech-detect:cloudflare] [http] [info] https://preview-admin-ie.onlinedoctor.superdrug.com
+[tech-detect:cloudflare] [http] [info] https://preview-admin-uk.onlinedoctor.superdrug.com
+[tech-detect:cloudflare] [http] [info] https://preview.onlinedoctor.superdrug.com
+[tech-detect:lighttpd] [http] [info] https://dareapp.superdrug.com
+[default-apache-test-all] [http] [info] https://campaign.superdrug.com [Apache/2.4.6 ()]
+[tech-detect:akamai] [http] [info] http://prod-cc.superdrug.com
+[php-detect] [http] [info] https://appt.healthclinics.superdrug.com
+https://dev.watsons.com.ph
+[tech-detect:microsoft-asp.net] [http] [info] https://m.tas.watsons.com.ph
+[tech-detect:ms-iis] [http] [info] https://enterpriseenrollment.watsons.com.ph
+https://campaigns.theperfumeshop.com (blocked by waf)
+https://ecom-data.theperfumeshop.com/robots.txt
+https://wp-ci.chime.com/.well-known/matrix/server
+https://recruit.hiltonhotels.jp/.htaccess
+https://elearning.watsons.com.tw 
+[microsoft-iis-version] [http] [info] https://sipproxy.watsons.com.tw [Microsoft-IIS/10.0]
+[microsoft-iis-version] [http] [info] https://ueatapi.watsons.com.tw [Microsoft-IIS/10.0]
+[tech-detect:ms-httpapi] [http] [info] https://vitamin.watsons.com.tw
+https://lbc.watsons.com.tw/
+https://vaccination.watsons.com.ph 
+[microsoft-ftp-service] [tcp] [info] brand.watsons.com.tw:21
+[akamai-cache-detect] [http] [info] https://supplierportal.watsons.com.ph
+koreanpromotion.parknshop.com (Scan port)
+[ms-exchange-server] [http] [info] https://pop.parknshop.com/owa/auth/logon.aspx [8.2.176.2]
+https://mitob-cname-c34.b.mi.com/#/
+https://xmmionegw-outer.be.mi.com/ (Fuzzing)
+https://tapestrycollection.hiltonhotels.jp
+https://hhonors.hiltonhotels.jp/
+https://waldorfastoria.hiltonhotels.jp/

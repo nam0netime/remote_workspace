@@ -1,0 +1,37 @@
+https://stories-editor.hilton.com and https://stories.hilton.com (may be some problem with two page calling each other)
+
+https://api.preprod.hilton.com.tr/swagger/index.html (api + IIS test ) (testing https://www.preprod.hilton.com.tr/package-lock.json)
+
+https://zhuti.designer.intl.xiaomi.com/sign-up (register an acccount) and https://zhuti.xiaomi.com/swagger-ui.html (Fuzzing with more wordlist already fuzz with all known wordlist ) (wait for an account) (test cache and header)
+
+https://lxr-cms.hiltonbusinessonline.com/lxr (https://lxr-cms.hiltonbusinessonline.com/manual/en/sitemap.html , https://lxr-cms.hiltonbusinessonline.com/manual/en/howto/ssi.html?)
+
+http://wms.be.mi.com/djd/p/web/admin/site/ (test function) (js recon)
+
+https://in.wps.be.mi.com/favicon.ico  (can not login check with burp , ffuf done)
+
+https://cewe.kruidvat.nl (/web ) (test cache posining ) (log in functon)
+
+https://eflow.watsons.com.tw/login.do (fuzz host header) [wadl-api:http-get] [http] [info] https://eflow.watsons.com.tw/api/application.wadl (focus on testing and fuzzing the api)
+
+https://privacy.mi.com (/supporttickets /support_admin  /trust   fuzz again need gau) (crawl and header check with burp)
+
+https://widget.xiaomi.com (test burp , header ,fuzzing on my machine)
+
+https://partner.mi.com/ (only test header , drupal testing ,IIS file test)
+
+https://cn.i.mi.com/ (login and more fuzzing)
+
+https://e.mi.com/ (fuzzing)
+
+https://gongyi.mi.com/(login)
+
+https://ru.home.mi.com/ (login , fuzzing)
+
+https://ts.jr.mi.com/#/login?redirect=%2Fhome
+
+https://tas.watsons.com.ph/ (IIS test, host fuzzig ,path fuzzing)
+
+dev.tv.mi.com (Fuzzing header wait till signup)
+
+https://staff.jr.mi.com/
